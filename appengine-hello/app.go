@@ -24,9 +24,9 @@ import (
 // init is run before the application starts serving.
 func init() {
 	// Handle all requests with path /hello with the helloHandler function.
-	http.HandleFunc("/hello", helloHandler)
+	http.HandleFunc("/hello", HelloHandler)
 }
 
-func helloHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Hello from the Go app")
+func HelloHandler(w http.ResponseWriter, r *http.Request) {
+	fmt.Println("Hello from the Go app")
 }

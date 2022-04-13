@@ -22,6 +22,8 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	hello "golang.org/x/example/appengine-hello"
 )
 
 // statusHandler is an http.Handler that writes an empty response using itself
@@ -96,4 +98,8 @@ func TestIntegration(t *testing.T) {
 	if b := w.Body.String(); !strings.Contains(b, "YES!") {
 		t.Fatalf("body = %q, want yes", b)
 	}
+}
+
+func TestHelloHandler(t *testing.T) {
+	hello.HelloHandler(nil, nil)
 }
