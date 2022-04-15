@@ -138,3 +138,7 @@ var tmpl = template.Must(template.New("tmpl").Parse(`
 	</h1>
 </center></body></html>
 `))
+
+func doSomething() {
+	fmt.Println("doSomething")
+}
