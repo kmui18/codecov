@@ -97,3 +97,7 @@ func TestIntegration(t *testing.T) {
 		t.Fatalf("body = %q, want yes", b)
 	}
 }
+
+func TestDoSomething(t *testing.T) {
+	doSomething()
+}
