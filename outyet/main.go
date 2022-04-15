@@ -142,3 +142,7 @@ var tmpl = template.Must(template.New("tmpl").Parse(`
 func doSomething() {
 	fmt.Println("doSomething")
 }
+
+func doSomethingElse() {
+	fmt.Println("doSomethingElse")
+}
