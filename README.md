@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/kmui18/codecov/branch/main/graph/badge.svg?token=S59FQ1THZG)](https://codecov.io/gh/kmui18/codecov)
+
 # Go example projects
 
 [![Go Reference](https://pkg.go.dev/badge/golang.org/x/example.svg)](https://pkg.go.dev/golang.org/x/example)
